@@ -1,0 +1,4 @@
+echo ".env" > .gitignore
+echo "chroma_db_free/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
