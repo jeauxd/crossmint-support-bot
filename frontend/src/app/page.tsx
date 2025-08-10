@@ -55,7 +55,7 @@ export default function ChatPage() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/query', {
+      const response = await fetch('/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -113,7 +113,7 @@ export default function ChatPage() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">Crossmint Support Assistant</h1>
-              <p className="text-gray-600">Get instant help with Crossmint's APIs and services</p>
+              <p className="text-gray-600">Get instant help with Crossmint&apos;s APIs and services</p>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function ChatPage() {
                 Welcome to Crossmint Support!
               </h2>
               <p className="text-gray-500 mb-8">
-                Ask me anything about Crossmint's APIs, NFT creation, wallet integration, and more.
+                Ask me anything about Crossmint&apos;s APIs, NFT creation, wallet integration, and more.
               </p>
               
               {/* Example Questions */}

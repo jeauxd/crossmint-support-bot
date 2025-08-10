@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/query.py": {
+      "runtime": "python3.9"
+    }
+  }
+}
